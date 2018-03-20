@@ -43,8 +43,8 @@ if ( post_password_required() )
             ?>
             <nav class="navigation comment-navigation" role="navigation">
 <!--                <h1 class="screen-reader-text section-heading">--><?php //_e( 'Comment navigation', 'lookattheworld' ); ?><!--</h1>-->
-                <div class="nav-previous"><?php previous_comments_link( __( '&larr; Stariji komentari', 'lookattheworld' ) ); ?></div>
-                <div class="nav-next"><?php next_comments_link( __( 'Noviji komentari &rarr;', 'lookattheworld' ) ); ?></div>
+                <div class="nav-previous"><?php previous_comments_link( __( '&larr; STARIJI KOMENTARI', 'lookattheworld' ) ); ?> </div>
+                <div class="nav-next"><?php next_comments_link( __( 'NOVIJI KOMENTARI &rarr;', 'lookattheworld' ) ); ?></div>
             </nav><!-- .comment-navigation -->
         <?php endif; // Check for comment navigation ?>
 
