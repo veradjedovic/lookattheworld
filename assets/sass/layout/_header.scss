@@ -1,0 +1,60 @@
+/* About The Main Navigation */
+.navbar-poz
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  a.brand {
+    color: rgba(255,255,255,.7);
+    padding: 5px;
+  }
+  a.brand:hover {
+    color: rgba(255,255,255,1);
+  }
+  div ul {
+    li {
+      a {
+        color: rgba(255,255,255,.7);
+        padding: 5px;
+      }
+      a:hover {
+        color: rgba(255,255,255,1);
+      }
+      &.current-menu-item a:link,
+      &.current-menu-item a:visited {
+        color: rgba(255,255,255,1);
+      }
+      ul.dropdown-menu {
+        background-color: #343a40;
+        li {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+/* About The Header of The Front Page */
+.row-header
+{
+  background: url("assets/img/bg-pigeon.jpg") no-repeat fixed center center;
+  //opacity: 0.7;
+  background-size: cover;
+  height: 100%;
+  padding-top: 20%;
+  header {
+    text-align: center;
+  }
+}
+
+/* About The Header of All Pages */
+.header-page
+{
+  background: url("assets/img/bg-pigeon.jpg") no-repeat center center;
+  opacity: 0.5;
+  background-size: cover;
+  height: 25%;
+  z-index: 10;
+}

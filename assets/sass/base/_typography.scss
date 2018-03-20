@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  font-family: "Open Sans", "Libre Franklin", "Arial", "sans-serif";
+  font-size: 1.9vh;
+  color: #333333;
+}
+
+a{
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#home {
+  padding-bottom: 45px;
+}
+
+.title-archives {
+  padding-top: 45px;
+}
+
+hr:last-child {
+  border: none;
+}

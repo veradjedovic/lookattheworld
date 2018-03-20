@@ -1,0 +1,31 @@
+/* About The Author Section */
+.about-author {
+  clear: both;
+  background-color: #EDEDED;
+  padding: 20px;
+  border-radius: 10px;
+  .about-author-image {
+    img {
+      display: block;
+    }
+    p {
+      background-color: rgba(0,0,0,0.5);
+      padding: 4px 0;
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px rgba(0,0,0,.85);
+      color: #FFF;
+      margin: 0;
+    }
+  }
+  .about-author-text {
+    .other-posts-by {
+      background-color: #FFF;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    a.btn {
+      color: #FFF;
+    }
+  }
+}
