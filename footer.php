@@ -74,6 +74,18 @@
                             }
                         }
                     });
+
+                // Add a parrot icon in front of the subtitle in a single article
+                $('.content-page h5 a, .content-page h4 a').prepend('<i class="fab fa-themeisle"></i> ');
+
+                // Add a tooltip to the sidebar recent posts widget link, no need to add .tooltip() function at the end of this chain
+                $('body').on('mouseover', '.rpwwt-widget a', function (e) {
+
+                    var content = $('span', this).html();
+                    console.log(content);
+
+                    $('.rpwwt-widget a').attr('data-toggle', 'tooltip').attr('title', content).attr('data-placement', 'right');
+                });
             });
         </script>
         <!-- End Scripts -->

@@ -158,6 +158,7 @@ hr:last-child {
 /* line 5, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_sidebar.scss */
 .row-sidebar div {
   padding-top: 20px;
+  /* It works just if you use Recent Posts With Thumbnails Widget with img-thumbnail and title of a post  */
 }
 
 /* line 7, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_sidebar.scss */
@@ -206,6 +207,29 @@ hr:last-child {
   background: url("strelicaCrnaDole.png") no-repeat right center;
 }
 
+/* line 40, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_sidebar.scss */
+.row-sidebar div .rpwwt-widget li {
+  margin: 0;
+}
+
+/* line 42, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_sidebar.scss */
+.row-sidebar div .rpwwt-widget li a {
+  display: block;
+  border: none;
+  padding: 0 10px;
+  min-height: 60px;
+  line-height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 52, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_sidebar.scss */
+.row-sidebar div .rpwwt-widget li a:hover {
+  border: none;
+  text-decoration: underline;
+}
+
 /* About The Menu in The Footer Section */
 /* line 2, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
 .menu {
@@ -239,7 +263,7 @@ hr:last-child {
   background-color: #ffffcc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  margin: 25% 0 0 0;
+  margin: 5% 0 0 0;
 }
 
 /* line 26, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
@@ -320,41 +344,46 @@ footer p {
   margin: 10px 0;
 }
 
-/* line 23, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 22, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+.row-article article .content-page h4, .row-article article .content-page h5 {
+  margin: 20px 0;
+}
+
+/* line 28, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .content-page div p {
   text-align: center;
 }
 
-/* line 38, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 43, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .likebtn_container {
   float: right;
   padding: 0;
 }
 
-/* line 42, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 47, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .heateor_sss_sharing_container {
   padding-bottom: 20px;
 }
 
-/* line 47, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 52, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area {
   border-top: 4px solid #F1F1F1;
   margin-top: 40px;
 }
 
-/* line 50, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 55, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area h5 {
   margin: 10px 0;
 }
 
-/* line 53, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 58, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol {
   list-style: none;
   margin: 5px 0;
   padding: 0;
 }
 
-/* line 58, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 63, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li > div {
   background-color: #F1F1F1;
   padding: 10px;
@@ -364,30 +393,30 @@ footer p {
   overflow: hidden;
 }
 
-/* line 65, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 70, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li > div p {
   margin: 1rem 0;
   font-size: large;
 }
 
-/* line 69, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 74, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li > div .reply, .row-article article .comments-area > ol > li > div .commentmetadata a {
   font-size: small;
 }
 
-/* line 72, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 77, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li > div .likebtn_container {
   float: right;
   margin: 0;
   padding: 0;
 }
 
-/* line 78, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 83, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li ol {
   list-style: none;
 }
 
-/* line 81, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 86, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li ol li > div {
   background-color: #fbeed5;
   padding: 10px;
@@ -397,48 +426,48 @@ footer p {
   overflow: hidden;
 }
 
-/* line 88, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 93, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li ol li > div p {
   margin: 1rem 0;
   font-size: large;
 }
 
-/* line 92, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 97, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li ol li > div .reply, .row-article article .comments-area > ol > li ol li > div .commentmetadata a {
   font-size: small;
 }
 
-/* line 95, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 100, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area > ol > li ol li > div .likebtn_container {
   float: right;
   margin: 0;
   padding: 0;
 }
 
-/* line 105, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 110, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .navigation {
   overflow: hidden;
 }
 
-/* line 107, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 112, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .navigation .nav-previous {
   float: left;
   margin: 5px 10px;
 }
 
-/* line 111, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 116, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .navigation .nav-next {
   float: left;
   margin: 5px 10px;
 }
 
-/* line 117, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 122, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .comment-respond h3 {
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
-/* line 122, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 127, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .comment-respond form input, .row-article article .comments-area .comment-respond form textarea {
   display: block;
   border: 1px solid #ccc;
@@ -449,13 +478,13 @@ footer p {
   padding: 10px;
 }
 
-/* line 131, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 136, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .comment-respond form .submit {
   margin-top: 25px;
   cursor: pointer;
 }
 
-/* line 135, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
+/* line 140, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
 .row-article article .comments-area .comment-respond form .submit:hover {
   background-color: #FFF;
 }

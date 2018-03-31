@@ -2,7 +2,7 @@
 
 <div>
 	<p>
-		Greska, ova stranica nije pronadjena :)
+		Greska, ova stranica nije pronadjena
 	</p>
 </div>
 

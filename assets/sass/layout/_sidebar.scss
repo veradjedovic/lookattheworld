@@ -34,5 +34,26 @@
         background: url("strelicaCrnaDole.png") no-repeat right center;
       }
     }
+
+    /* It works just if you use Recent Posts With Thumbnails Widget with img-thumbnail and title of a post  */
+    .rpwwt-widget {
+      li {
+        margin: 0;
+        a {
+          display: block;
+          border: none;
+          padding: 0 10px;
+          min-height: 60px;
+          line-height: 60px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+        a:hover {
+          border: none;
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
