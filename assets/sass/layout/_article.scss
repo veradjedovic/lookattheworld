@@ -38,6 +38,18 @@
         //  float: right;
         //}
       }
+      .wpb-tags {
+        margin-bottom: 30px;
+        & .tagbox {
+          margin-right: 10px;
+          margin-bottom: 5px;
+        }
+        & a {
+          padding: 2px 5px;
+          margin: 0;
+          text-transform: uppercase;
+        }
+      }
     }
 
     .likebtn_container {

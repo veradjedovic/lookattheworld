@@ -31,6 +31,7 @@
                 <?php if (is_single()) : ?>
                         <section class="content-page">
                             <?php the_content(); ?>
+                            <?php the_tags('<div class="wpb-tags"><span class="btn btn-secondary fas fa-tags tagbox"> TAGOVI: </span> ', ' / ', '</div>'); ?>
                         </section>
                         <section class="row about-author">
                             <div class="col-md-3 col-sm-4 col-xs-4 about-author-image">
