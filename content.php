@@ -56,7 +56,7 @@
                                     ?>
                                         <div class="other-posts-by">
                                             <h5>Još članaka od autora <?php echo get_the_author_meta('nickname') ?></h5>
-                                            <br />
+<!--                                            <br />-->
                                             <ul>
                                                 <?php
                                                     while($otherAuthorPosts->have_posts()) :

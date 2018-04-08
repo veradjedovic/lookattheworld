@@ -86,6 +86,9 @@
 
                     $('.rpwwt-widget a').attr('data-toggle', 'tooltip').attr('title', content).attr('data-placement', 'right');
                 });
+
+                // Remove attr style on div picture in article
+                $('.content-page div').removeAttr('style');
             });
         </script>
         <!-- End Scripts -->
