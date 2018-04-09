@@ -16,7 +16,6 @@
                     <?php
                     if(have_posts()): // Ukoliko ima clanaka
                         ?>
-                        <h3 class="title-articles"> Articles </h3>
                         <?php
                         while(have_posts()) :  // Petlja za uzimanje clanaka
                             the_post(); // Podaci o clanku
