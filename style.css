@@ -128,16 +128,17 @@ hr:last-child {
   background: url("assets/img/bg-pigeon1.jpg") no-repeat fixed center center;
   background-size: cover;
   height: 100%;
-  padding-top: 20%;
 }
 
 /* line 47, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
 .row-header header {
+  position: relative;
+  top: 42%;
   text-align: center;
 }
 
 /* About The Header of All Pages */
-/* line 53, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
+/* line 55, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
 .header-page {
   background: url("assets/img/bg-pigeon2.jpg") no-repeat center center;
   opacity: 0.5;
