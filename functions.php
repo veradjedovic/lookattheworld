@@ -78,7 +78,7 @@ function lookattheworld_widgets_init() {
     'description'     => __( 'Post Sidebar Description', 'lookattheworld' ),
     'before_widget'   => '<div>',
     'after_widget'    => '</div>',
-    'before_title'    => '<h4><i class="far fa-paper-plane"></i>',
+    'before_title'    => '<h4><i class="far fa-paper-plane"></i> ',
     'after_title'     => '</h4>'
     ] );
 
