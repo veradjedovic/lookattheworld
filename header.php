@@ -3,7 +3,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="keywords" content="turizam, putovanja, priroda, pustolovina, destinacija, putopis, prirodne lepote, prirodni resursi, avantura, avanturista, planeta zemlja" />
+    <meta name="keywords" content="prozor u svet, prozor u avanturu, prozor u svet avanture, pogled u svet, turizam, putovanja, priroda, pustolovina, destinacija, putopis, prirodne lepote, prirodni resursi, avantura, avanturista, planeta zemlja" />
     <meta name="description" content="Ovo je mesto za sve one koji vole avanturu i putovanja u najrazličitije zemlje sveta. Kako upoznajete prirodu, tako postepeno upoznajete i sebe, a, samim tim, i druge ljude i ostale entitete na našoj planeti, a i šire od toga. Svaka savladana prepreka na Vašem putu predstavlja savladavanje iste te prepreke u Vašem umu..." />
     <title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -15,7 +15,7 @@
 
         <!-- Main Navigation Bar -->
 		<nav class="navbar-poz navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
-			<a class="brand lead" href="<?= home_url() ?>"><?= get_bloginfo( 'name' ) ?>&nbsp; | </a>
+<!--			<a class="brand lead" href="--><?//= home_url() ?><!--">--><?//= get_bloginfo( 'name' ) ?><!--&nbsp; | </a>-->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  	<span class="navbar-toggler-icon"></span>
 			</button>
