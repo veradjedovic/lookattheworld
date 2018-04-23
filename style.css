@@ -128,18 +128,25 @@ hr:last-child {
   background: url("assets/img/bg-pigeon1.jpg") no-repeat fixed center center;
   background-size: cover;
   height: 100%;
+  /* iphone 3 */
+  /* iphone 4 */
+  /* iphone 5 */
+  /* iphone 6, 6s */
+  /* iphone 7, 8 */
+  /* iphone 6+, 6s+, 7+, 8+ */
+  /* iphone X */
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 45, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
+  /* line 48, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
   .row-header {
-    /* The file size of this background image is 93% smaller
-         to improve page load speed on mobile internet connections */
-    background-image: url("assets/img/bg-pigeon-mobile.jpg") no-repeat fixed center center;
+    background: url("assets/img/bg-pigeon-mobile.jpg") no-repeat fixed center center;
+    background-size: cover;
+    height: 100%;
   }
 }
 
-/* line 55, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
+/* line 127, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
 .row-header header {
   position: relative;
   top: 42%;
@@ -147,7 +154,7 @@ hr:last-child {
 }
 
 /* About The Header of All Pages */
-/* line 63, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
+/* line 135, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
 .header-page {
   background: url("assets/img/bg-pigeon2.jpg") no-repeat center center;
   opacity: 0.5;
@@ -157,7 +164,7 @@ hr:last-child {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 68, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
+  /* line 140, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
   .header-page {
     background-image: url("assets/img/bg-pigeon2-mobile.jpg") no-repeat fixed center center;
   }
