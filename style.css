@@ -137,13 +137,6 @@ hr:last-child {
   /* iphone X */
 }
 
-@media only screen and (max-width: 767px) {
-  /* line 44, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
-  .row-header {
-    background: url("assets/img/bg-pigeon-mobile.jpg") no-repeat fixed center center;
-  }
-}
-
 /* line 123, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
 .row-header header {
   position: relative;
@@ -159,13 +152,6 @@ hr:last-child {
   background-size: cover;
   height: 25%;
   z-index: 10;
-}
-
-@media only screen and (max-width: 767px) {
-  /* line 136, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_header.scss */
-  .header-page {
-    background-image: url("assets/img/bg-pigeon2-mobile.jpg") no-repeat fixed center center;
-  }
 }
 
 /* About The Widgets in A Sidebar */

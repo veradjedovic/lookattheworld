@@ -40,11 +40,11 @@
 .row-header
 {
   background: url("assets/img/bg-pigeon1.jpg") no-repeat fixed center center;
-  @media only screen and (max-width: 767px) {
-    & {
-      background: url("assets/img/bg-pigeon-mobile.jpg") no-repeat fixed center center;
-    }
-  }
+  //@media only screen and (max-width: 767px) {
+  //  & {
+  //    background: url("assets/img/bg-pigeon-mobile.jpg") no-repeat fixed center center;
+  //  }
+  //}
   //opacity: 0.7;
   background-size: cover;
   height: 100%;
@@ -132,11 +132,11 @@
 {
   background: url("assets/img/bg-pigeon2.jpg") no-repeat center center;
 
-  @media only screen and (max-width: 767px) {
-    & {
-      background-image: url("assets/img/bg-pigeon2-mobile.jpg") no-repeat fixed center center;
-    }
-  }
+  //@media only screen and (max-width: 767px) {
+  //  & {
+  //    background-image: url("assets/img/bg-pigeon2-mobile.jpg") no-repeat fixed center center;
+  //  }
+  //}
 
   opacity: 0.5;
   background-size: cover;
