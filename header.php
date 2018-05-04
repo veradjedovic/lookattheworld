@@ -3,9 +3,10 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="keywords" content="prozor u svet, prozor u avanturu, prozor u svet avanture, pogled u svet, turizam, putovanja, priroda, pustolovina, destinacija, putopis, prirodne lepote, prirodni resursi, avantura, avanturista, planeta zemlja" />
+    <meta name="keywords" content="prozorusvet.com, prozor u svet, prozor u avanturu, prozor u svet avanture, pogled u svet, turizam, putovanja, priroda, pustolovina, destinacija, putopis, prirodne lepote, prirodni resursi, avantura, avanturista, planeta zemlja, turisticka destinacija, atrakcija, turisticka atrakcija, istrazivanje, blog, blogger, uzivanje, prozor, svet putovanja, zemlje sveta, upoznajte prirodu, upoznajte sebe, nasa planeta, savladavanje prepreke" />
     <meta name="description" content="Ovo je mesto za sve one koji vole avanturu i putovanja u najrazličitije zemlje sveta. Kako upoznajete prirodu, tako postepeno upoznajete i sebe, a, samim tim, i druge ljude i ostale entitete na našoj planeti, a i šire od toga. Svaka savladana prepreka na Vašem putu predstavlja savladavanje iste te prepreke u Vašem umu..." />
-    <title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
+<!--    <title>--><?php //wp_title('•', true, 'right'); bloginfo('name'); ?><!--</title>-->
+    <title><?php wp_title(''); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>

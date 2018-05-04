@@ -243,6 +243,7 @@ add_action('wp_head', 'lookattheworld_customize_css');
 add_theme_support('post-thumbnails');
 add_image_size('small-thumbnail', 150, 120, true);
 add_image_size('banner-image', 920, 500, array('left', 'top'));
+add_theme_support('title-tag');
 
 // function lookattheworld_modify_nav_menu_args( $args ) {
 //     return array_merge( $args, array(
