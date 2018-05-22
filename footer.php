@@ -76,7 +76,7 @@
                     });
 
                 // Add a parrot icon in front of the subtitle in a single article
-                $('.content-page h5 a, .content-page h4 a').prepend('<i class="fab fa-themeisle"></i> ');
+                $('.content-page h5 a, .content-page h4 a, .content-page h6 a').prepend('<i class="fab fa-themeisle"></i> ');
 
                 // Add a tooltip to the sidebar recent posts widget link, no need to add .tooltip() function at the end of this chain
                 $('body').on('mouseover', '.rpwwt-widget a', function (e) {

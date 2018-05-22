@@ -350,7 +350,7 @@ footer p {
 }
 
 /* line 22, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_article.scss */
-.row-article article .content-page h4, .row-article article .content-page h5 {
+.row-article article .content-page h4, .row-article article .content-page h5, .row-article article .content-page h6 {
   margin: 20px 0;
 }
 
