@@ -2,6 +2,7 @@
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+assets/sass/
 
 ### NetBeans ###
 nbproject/private/
