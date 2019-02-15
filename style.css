@@ -291,13 +291,28 @@ hr:last-child {
   padding-left: 15px;
 }
 
-/* About The Footer Section */
+/* line 45, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
+.footer .footer-widgets aside .bx-wrapper {
+  margin-top: 10px;
+}
+
+/* line 47, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
+.footer .footer-widgets aside .bx-wrapper ul li {
+  padding: 10px 0px;
+}
+
 /* line 49, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
+.footer .footer-widgets aside .bx-wrapper ul li a .entry-title {
+  padding: 0px 10px;
+}
+
+/* About The Footer Section */
+/* line 58, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
 footer {
   padding: 0;
 }
 
-/* line 51, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
+/* line 60, /var/www/html/wordpress_blog/wp-content/themes/lookattheworld/assets/sass/layout/_footer.scss */
 footer p {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
