@@ -238,6 +238,17 @@ function lookattheworld_customize_css(){ ?>
 add_action('wp_head', 'lookattheworld_customize_css');
 
 /**
+ * Filter the excerpt "read more" string.
+ *
+ * @param string $more "Read more" excerpt string.
+ * @return string (Maybe) modified "read more" excerpt string.
+ */
+function wpdocs_excerpt_more( $more ) {
+    return '... <a href="'.get_the_permalink().'" rel="nofollow"><span class="btn btn-outline-dark btn-sm"> Read More &raquo;</span></a>';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+/**
  * Add featured image support
  */
 add_theme_support('post-thumbnails');

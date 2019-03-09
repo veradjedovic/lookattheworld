@@ -55,8 +55,9 @@
                                     if($otherAuthorPosts->have_posts()) :
                                     ?>
                                         <div class="other-posts-by">
-                                            <h5>Još članaka od autora <?php echo get_the_author_meta('nickname') ?></h5>
-<!--                                            <br />-->
+                                            <h5>
+                                                Još članaka od autora <?php echo get_the_author_meta('nickname') ?>
+                                            </h5>
                                             <ul>
                                                 <?php
                                                     while($otherAuthorPosts->have_posts()) :
@@ -94,13 +95,8 @@
             
                         <?php
                     else:
-                        echo get_the_excerpt(); // opis do "Read more" dela
+                        echo the_excerpt(); // opis do "Read more" dela
                         ?>
-                        <a href="<?php the_permalink(); ?>">
-                            <span class="badge badge-dark">
-                                READ MORE &raquo;
-                            </span>
-                        </a>
                 <?php
                     endif;
                 ?>
