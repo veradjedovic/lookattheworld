@@ -244,7 +244,7 @@ add_action('wp_head', 'lookattheworld_customize_css');
  * @return string (Maybe) modified "read more" excerpt string.
  */
 function wpdocs_excerpt_more( $more ) {
-    return '... <a href="'.get_the_permalink().'" rel="nofollow"><span class="btn btn-outline-dark btn-sm"> Read More &raquo;</span></a>';
+    return '... <a href="'.get_the_permalink().'" rel="nofollow"><span class="btn btn-outline-dark btn-sm"> Pročitaj više &raquo;</span></a>';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
