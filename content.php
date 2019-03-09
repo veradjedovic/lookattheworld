@@ -1,4 +1,4 @@
-<article class="text-justify">
+<article class="">
     <h2 class="<?php echo (is_single() || is_page()) ? 'title-article' : ''; ?>">
         <a href="<?php the_permalink(); // link do clanka ?>">
             <i class="<?php echo (is_search() || is_page()) ? 'fas fa-paperclip' : 'fab fa-themeisle'; ?>"></i>

@@ -22,7 +22,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark">
-        <p>Copyright &copy; Vera Jovanović Đedović | Sva prava zadržana</p>
+        <p>&copy; 2019 Prozor u svet avanture</p>
     </footer>
     <!-- End Footer -->
 

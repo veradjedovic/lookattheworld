@@ -22,7 +22,7 @@
                     <?php
                     if(have_posts()): // Ukoliko ima clanaka
                         ?>
-                        <h3 class="title-articles"> Articles </h3>
+<!--                        <h3 class="title-articles"> Članci </h3>-->
                         <div class="row-article-content">
                             <?php
                             while(have_posts()) :  // Petlja za uzimanje clanaka
